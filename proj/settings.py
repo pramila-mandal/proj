@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ftl',
         'USER': 'pramilamandal',
-        'PASSWORD': 'Ntpc4477',
+        'PASSWORD': 'ntpc4477',
         'HOST': 'pramilamandal.mysql.pythonanywhere-services.com',
         'PORT': '3306',
     }
