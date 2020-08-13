@@ -25,7 +25,7 @@ SECRET_KEY = 'u2$pd*6i$88xx1_av2xau2z316@%mlamwtydlet0*#la#p8$+y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pramilamandal.pythonanywhere.com']
 
 
 # Application definition
@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'proj.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ftl',
+        'NAME': 'pramilamandal$ftl',
         'USER': 'pramilamandal',
         'PASSWORD': 'ntpc4477',
         'HOST': 'pramilamandal.mysql.pythonanywhere-services.com',

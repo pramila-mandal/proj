@@ -6,8 +6,6 @@ class User(models.Model):
     user_id = models.CharField(max_length=32, blank=False, null=False)
     time_zone = models.CharField(max_length=52, blank=False, null=False)
 
-    def __dict__(self):
-        pass
 
 class Activity(models.Model):
     user = models.ForeignKey(User, blank=False, null=False, on_delete=models.CASCADE)
