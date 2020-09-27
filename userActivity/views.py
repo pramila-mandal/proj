@@ -3,7 +3,7 @@ from django.http import JsonResponse
 import datetime
 from django.core import serializers
 
-from .models import User
+from .models import User 
 
 # Create your views here.
 def index(request):
