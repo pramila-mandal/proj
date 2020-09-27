@@ -2,12 +2,18 @@
 Project for FullThrottle Labs using django
 
 Running:
+
 install Django
+
 clone the repo
+
 change the database properties to your local properties in proj/settings.py
+
 run command python manage.py migrate
+
 run command python manage.py createsuperuser and fill the form
-raun command python manage.py runserver
+
+run command python manage.py runserver
 
 Current external hosted website:
 
