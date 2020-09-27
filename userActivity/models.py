@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class User(models.Model):
+class User(models.Model): 
     real_name = models.CharField(max_length=512, blank=False, null=False)
     user_id = models.CharField(max_length=32, blank=False, null=False)
     time_zone = models.CharField(max_length=52, blank=False, null=False)
